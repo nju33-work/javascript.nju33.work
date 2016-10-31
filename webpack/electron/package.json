@@ -1,7 +1,7 @@
 {
-  "name": "webpack.get-started",
+  "name": "webpack.electron",
   "version": "1.0.0",
-  "description": "webpack get-started の設定",
+  "description": "webpack electron の設定",
   "scripts": {
     "build": "webpack"
   },
