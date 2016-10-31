@@ -13,7 +13,9 @@ module.exports = {
 
   entry: './src/index.babel.js',
   output: {
-    filename: './local/scripts/index.js'
+    filename: 'index.js',
+    path: `${__dirname}/local/scripts/`,
+    publicPath: 'http://localhost:8080/scripts/'
   },
 
   module: {
