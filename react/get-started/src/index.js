@@ -1,0 +1,13 @@
+import React, {Component} from 'react';
+import {render} from 'react-dom';
+
+class HelloReact extends Component {
+  render() {
+    return <h1>Hello React</h1>;
+  }
+}
+
+render(
+  <HelloReact />,
+  document.getElementById('app')
+);
